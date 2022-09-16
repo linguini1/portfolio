@@ -1,8 +1,10 @@
 #navbar {
-  background-color: var(--dark);
+  background-color: var(--light);
   font-size: 0.8rem;
+  border-style: solid none;
+  border-color: var(--dark);
 
-  padding: 1.5rem var(--site-header-indent);
+  padding: 1rem var(--site-header-indent);
 
   display: flex;
   justify-content: left;
@@ -19,7 +21,26 @@
 
 #pages {
   margin-right: 4rem;
+}
+
+.nav-link {
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: 600;
+
+  padding: 0.3rem;
+
+  background-color: var(--light);
+  color: var(--dark);
+  border-style: solid;
+  border-color: var(--dark);
+
+  --anim-duration: 0.05s;
+  transition: transform linear var(--anim-duration),
+    box-shadow linear var(--anim-duration);
+}
+
+.nav-link:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0 0.2rem var(--dark);
 }

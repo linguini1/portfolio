@@ -1,6 +1,10 @@
 /* Header */
 #site-header {
   padding: 2rem var(--site-header-indent);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 2rem;
 }
 
 #site-title {

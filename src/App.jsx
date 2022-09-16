@@ -1,9 +1,13 @@
+// Styles
 import "./App.css";
+
 // Hooks
 
 // Components
 import Navbar from "./components/navbar/Navbar";
-import { Link, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import PageLink from "./components/navbar/PageLink";
+import DarkModeToggle from "./components/DarkModeToggle";
 
 // Pages
 import Home from "./pages/home/Home";
@@ -13,9 +17,10 @@ function App() {
     <div className="App">
       <div id="site-header">
         <h1 id="site-title">Matteo Golin</h1>
+        <DarkModeToggle></DarkModeToggle>
       </div>
       <Navbar>
-        <Link to="/">Home</Link>
+        <PageLink to="/">Home</PageLink>
       </Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
