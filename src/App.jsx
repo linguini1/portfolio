@@ -11,6 +11,7 @@ import DarkModeToggle from "./components/DarkModeToggle";
 
 // Pages
 import Home from "./pages/home/Home";
+import CV from "./pages/cv/CV";
 
 function App() {
   return (
@@ -21,9 +22,11 @@ function App() {
       </div>
       <Navbar>
         <PageLink to="/">Home</PageLink>
+        <PageLink to="/cv">CV</PageLink>
       </Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/cv" element={<CV />} />
       </Routes>
     </div>
   );

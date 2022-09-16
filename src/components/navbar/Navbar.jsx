@@ -1,8 +1,8 @@
 import React from "react";
 import "./Navbar.css";
 import Social from "./Social";
-import { ReactComponent as GitHub } from "../../assets/github.svg";
-import { ReactComponent as LinkedIn } from "../../assets/linkedin.svg";
+import { ReactComponent as GitHub } from "../../assets/icons/github.svg";
+import { ReactComponent as LinkedIn } from "../../assets/icons/linkedin.svg";
 
 export default function Navbar({ current_page, children }) {
   return (
