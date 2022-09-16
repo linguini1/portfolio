@@ -1,0 +1,30 @@
+#navbar {
+  background-color: var(--secondary);
+  color: var(--accent-two);
+  font-size: 0.8rem;
+
+  padding: 1.5rem var(--site-header-indent);
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+#socials,
+#pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+#pages {
+  margin-right: 4rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#pages a:hover {
+  filter: brightness(var(--hover-brightness));
+}
