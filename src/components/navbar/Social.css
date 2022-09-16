@@ -3,9 +3,5 @@
   --size: 1.5rem;
   height: var(--size);
   width: var(--size);
-  fill: var(--accent-two);
-}
-
-.social-link svg:hover {
-  filter: brightness(var(--hover-brightness));
+  fill: var(--dark);
 }

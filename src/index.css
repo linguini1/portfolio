@@ -1,4 +1,4 @@
 body {
-  background-color: var(--primary);
-  color: var(--contrast);
+  background-color: var(--light);
+  color: var(--dark);
 }

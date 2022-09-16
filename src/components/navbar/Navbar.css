@@ -1,6 +1,5 @@
 #navbar {
-  background-color: var(--secondary);
-  color: var(--accent-two);
+  background-color: var(--dark);
   font-size: 0.8rem;
 
   padding: 1.5rem var(--site-header-indent);
@@ -23,8 +22,4 @@
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: 600;
-}
-
-#pages a:hover {
-  filter: brightness(var(--hover-brightness));
 }

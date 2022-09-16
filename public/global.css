@@ -1,15 +1,10 @@
 /* Variables */
 :root {
   /* Colours */
-  --primary: rgb(37, 29, 41);
-  --secondary: rgb(67, 61, 76);
-  --tertiary: rgb(119, 130, 153);
-  --accent-one: rgb(156, 174, 187);
-  --accent-two: rgb(251, 205, 205);
-  --contrast: rgb(255, 255, 255);
+  --light: violet;
+  --dark: purple;
 
   /* Values */
-  --hover-brightness: 80%;
 
   /* Sizing */
   --site-header-indent: 2.5rem;
