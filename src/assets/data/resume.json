@@ -1,0 +1,179 @@
+{
+  "profile": {
+    "name": "Matteo Golin",
+    "descriptor": "Computer systems engineering student",
+    "description": "I'm a computer systems engineering student with a passion for automation, design and abstraction within computing technologies.\nI'm looking for a position that can provide me with experience in the technology field and challenge me to grow my skill-set."
+  },
+  "contact": {
+    "phone": "343-262-2690",
+    "email": "matteo.golin@gmail.com",
+    "address": {
+      "street": "201 Tewsley DR",
+      "postal_code": "k1v0y7",
+      "city": "ottawa",
+      "province": "on",
+      "country": "canada"
+    },
+    "github": "github.com/linguini1",
+    "linkedin": "linkedin.com/in/matteo-golin-94118021b"
+  },
+  "education": [
+    {
+      "certification": "B.Eng Computer Systems",
+      "institution": "Carleton University",
+      "location": {
+        "city": "ottawa",
+        "province": "on"
+      },
+      "year": "",
+      "sars": [
+        "Awarded the Henry M Tory scholarship for an admission average of 93%, which was renewed during the second year for maintaining an 11.80 CGPA.",
+        "Admitted to the Golden Key International Honour Society for placing within the top 15% of students in computer systems engineering."
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "position": "Multimedia & Web Editor",
+      "workplace": "Charlatan Publications Inc.",
+      "location": {
+        "city": "ottawa",
+        "province": "on"
+      },
+      "start_date": {
+        "month": "December",
+        "year": "2017"
+      },
+      "end_date": {
+        "month": "",
+        "year": ""
+      },
+      "sars": [
+        "Designed and launched an ecommerce website for the publication which provided additional income.",
+        "Developed and presented an SEO optimization workshop to staff, resulting in higher search engine rankings for articles.",
+        "Articulated troubleshooting instructions to staff who encountered difficulties publishing to the website which sped up workflow.",
+        "Programmed automation tools using Selenium and the WordPress REST API in Python to post polls to the website and design and send the publication newsletter every week, resulting in more efficient time usage."
+      ]
+    },
+    {
+      "position": "Sous Chef",
+      "workplace": "Zizis Kitchen and Wine Bar",
+      "location": {
+        "city": "ottawa",
+        "province": "on"
+      },
+      "start_date": {
+        "month": "January",
+        "year": "2019"
+      },
+      "end_date": {
+        "month": "July",
+        "year": "2022"
+      },
+      "sars": [
+        "Assessed ingredient preparation times and staff capabilities in order to divide up tasks, resulting in faster meal completion during service.",
+        "Assisted serving staff with their tasks following completion of kitchen responsibilities, allowing for faster closing times."
+      ]
+    }
+  ],
+  "extracurricular": [
+    {
+      "activity": "Huntsman Marine Biology Course",
+      "organization": "OCSB",
+      "start_date": {
+        "month": "September",
+        "year": "2019"
+      },
+      "end_date": {
+        "month": "September",
+        "year": "2019"
+      },
+      "sars": [
+        "Participated in several on-site lab experiments and expert lectures about the marine ecology of New Brunswick."
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "achievement": "Academic Honour Roll",
+      "date": {
+        "month": "June",
+        "year": "2021"
+      },
+      "description": ["Overall average above 80% grades 7-12."]
+    },
+    {
+      "achievement": "Waterloo Math Contest",
+      "date": {
+        "month": "September",
+        "year": "2019"
+      },
+      "description": [
+        "Placed within the top 25% of all contestants.",
+        "Achieved the highest score within St. Francis Xavier High School."
+      ]
+    },
+    {
+      "achievement": "Leadership Award",
+      "date": {
+        "month": "June",
+        "year": "2021"
+      },
+      "description": [
+        "Recipient of the Jim Tubman leadership award for outstanding leadership in the school community."
+      ]
+    },
+    {
+      "achievement": "Computer Science Award",
+      "date": {
+        "month": "June",
+        "year": "2021"
+      },
+      "description": ["Achieved the highest grade in 2020 and 2021."]
+    },
+    {
+      "achievement": "Language Arts Award",
+      "date": {
+        "month": "June",
+        "year": "2021"
+      },
+      "description": ["Achieved the highest grade in 2017 and 2021."]
+    }
+  ],
+  "skills": {
+    "tools": [
+      "Python",
+      "HTML, CSS & SCSS",
+      "React & Javascript",
+      "GitHub",
+      "Flask",
+      "Pandas",
+      "Adobe XD",
+      "Word, Excel, Powerpoint"
+    ],
+    "abilities": [
+      "English, French, Russian",
+      "Graphic design",
+      "Collaboration",
+      "Time management",
+      "Organization",
+      "Problem solving",
+      "Leadership",
+      "Communication"
+    ]
+  },
+  "interests": [
+    "Graphic design",
+    "Linguistics",
+    "Programming",
+    "Photography",
+    "Numismatics"
+  ],
+  "projects": [
+    {
+      "title": "typeTracker",
+      "year": "2022",
+      "sars": []
+    }
+  ]
+}

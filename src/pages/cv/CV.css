@@ -1,0 +1,66 @@
+/* Text */
+#cv {
+  --text-size: 0.8rem;
+}
+
+#cv a {
+  text-decoration: underline;
+  font-size: var(--text-size);
+  font-weight: 300;
+}
+
+#cv h1,
+h2 {
+  text-transform: uppercase;
+}
+
+#cv h1 {
+  font-weight: 700;
+  margin: 0;
+  font-size: 2rem;
+}
+
+#cv h1.subtitle {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+#cv h2 {
+  font-weight: 500;
+}
+
+#cv h3 {
+  font-weight: 400;
+}
+
+#cv h4 {
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+
+#cv p {
+  font-weight: 300;
+  font-size: var(--text-size);
+}
+
+#cv .sars {
+  font-weight: 300;
+  font-size: var(--text-size);
+  list-style: "-  ";
+  line-height: 1.5rem;
+}
+
+/* General */
+#cv section {
+  margin-bottom: 0.5rem;
+}
+
+/* Profile */
+
+/* Education */
+#cv-education,
+#cv-work {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
