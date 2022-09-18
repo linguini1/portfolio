@@ -9,27 +9,37 @@ import CVWorkExperience from "./components/CVWorkExperience";
 import CVProject from "./components/CVProject";
 import CVSkills from "./components/CVSkills";
 import CVAward from "./components/CVAward";
+import CVExtracurricular from "./components/CVExtracurricular";
 
 export default function CV() {
   const profile = Resume.profile;
 
   // Education
-  const education = Resume.education.map((item) => (
-    <CVEducationItem item={item} />
+  const education = Resume.education.map((item, index) => (
+    <CVEducationItem key={index} item={item} />
   ));
 
   // Work experience
-  const work_experience = Resume.experience.map((experience) => (
-    <CVWorkExperience experience={experience} />
+  const work_experience = Resume.experience.map((experience, index) => (
+    <CVWorkExperience key={index} experience={experience} />
   ));
 
   // Projects
-  const projects = Resume.projects.map((project) => (
-    <CVProject project={project} />
+  const projects = Resume.projects.map((project, index) => (
+    <CVProject key={index} project={project} />
   ));
 
   // Awards
-  const awards = Resume.awards.map((award) => <CVAward award={award} />);
+  const awards = Resume.awards.map((award, index) => (
+    <CVAward key={index} award={award} />
+  ));
+
+  // Extracurriculars
+  const extracurriculars = Resume.extracurriculars.map(
+    (extracurricular, index) => (
+      <CVExtracurricular key={index} extracurricular={extracurricular} />
+    )
+  );
 
   return (
     <main id="cv" className="page">
@@ -49,6 +59,10 @@ export default function CV() {
       <section id="cv-projects">
         <h2>Projects</h2>
         {projects}
+      </section>
+      <section id="cv-extracurriculars">
+        <h2>Extracurriculars</h2>
+        {extracurriculars}
       </section>
       <section id="cv-skills">
         <h2>Skills</h2>

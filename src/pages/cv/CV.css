@@ -71,7 +71,8 @@ h2 {
 #cv-experience,
 #cv-projects,
 #cv-skills,
-#cv-awards {
+#cv-awards,
+#cv-extracurriculars {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;

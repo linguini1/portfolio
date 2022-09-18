@@ -2,7 +2,7 @@ import React from "react";
 
 export default function CVSkills({ skills }) {
   const create_list = (items) => {
-    return items.map((item) => <li>{item}</li>);
+    return items.map((item, index) => <li key={index}>{item}</li>);
   };
 
   // Tools

@@ -8,7 +8,7 @@ export default function CVEducationItem({ item }) {
   )}, ${item.location.province.toUpperCase()} | ${handle_no_year(item.year)}`;
 
   // SAR statements
-  const sars = item.sars.map((sar) => <li>{sar}</li>);
+  const sars = item.sars.map((sar, index) => <li key={index}>{sar}</li>);
 
   return (
     <div className="education">

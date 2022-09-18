@@ -76,10 +76,10 @@
       ]
     }
   ],
-  "extracurricular": [
+  "extracurriculars": [
     {
-      "activity": "Huntsman Marine Biology Course",
-      "organization": "OCSB",
+      "title": "Huntsman Marine Biology Course",
+      "organization": "University of New Brunswick",
       "start_date": {
         "month": "September",
         "year": "2019"
@@ -89,7 +89,7 @@
         "year": "2019"
       },
       "sars": [
-        "Participated in several on-site lab experiments and expert lectures about the marine ecology of New Brunswick."
+        "Participated in several hands-on field research activities and laboratory experiments during a week long course in New Brunswick, gaining an understanding of the importance of marine ecosystems and the impact of fisheries and pollution on their biodiversity."
       ]
     }
   ],
@@ -146,13 +146,6 @@
       "Communication"
     ]
   },
-  "interests": [
-    "Graphic design",
-    "Linguistics",
-    "Programming",
-    "Photography",
-    "Numismatics"
-  ],
   "projects": [
     {
       "title": "Library Database",

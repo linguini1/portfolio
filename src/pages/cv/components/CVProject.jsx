@@ -3,7 +3,7 @@ import { handle_no_year } from "../../../utils/strformat";
 
 export default function CVProject({ project }) {
   // SAR statements
-  const sars = project.sars.map((sar) => <li>{sar}</li>);
+  const sars = project.sars.map((sar, index) => <li key={index}>{sar}</li>);
 
   // Title (link or no link)
   var title = <h3>{project.title}</h3>;

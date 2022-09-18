@@ -3,7 +3,7 @@ import { format_month, get_date } from "../../../utils/strformat";
 
 export default function CVAward({ award }) {
   // SAR statements
-  const sars = award.sars.map((sar) => <li>{sar}</li>);
+  const sars = award.sars.map((sar, index) => <li key={index}>{sar}</li>);
 
   return (
     <div className="award">
