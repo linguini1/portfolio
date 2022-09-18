@@ -2,9 +2,7 @@ import React from "react";
 import "./DarkModeToggle.css";
 import { useState, useEffect } from "react";
 
-export default function DarkModeToggle() {
-  const [darkMode, setDarkMode] = useState(true); // Light mode by default
-
+export default function DarkModeToggle({ darkMode, setDarkMode }) {
   // Swap variables to change theme mode
   useEffect(() => {
     const computedStyles = getComputedStyle(document.documentElement);

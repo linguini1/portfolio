@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Monitor Glow",
+    "link": "https://lospec.com/palette-list/1bit-monitor-glow",
+    "light": "#f0f6f0",
+    "dark": "#222323"
+  },
+  {
+    "name": "IBM 8503",
+    "link": "https://lospec.com/palette-list/obra-dinn-ibm-8503",
+    "light": "#ebe5ce",
+    "dark": "#2e3037"
+  },
+  {
+    "name": "Paperback",
+    "link": "https://lospec.com/palette-list/paperback-2",
+    "light": "#b8c2b9",
+    "dark": "#382b26"
+  },
+  {
+    "name": "Green",
+    "link": "https://lospec.com/palette-list/ys-neutral-green",
+    "light": "#ffeaf9",
+    "dark": "#004c3d"
+  }
+]

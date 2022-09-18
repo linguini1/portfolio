@@ -1,5 +1,5 @@
 .social-link svg {
-  --size: 1.8rem;
+  --size: 1.2rem;
   height: var(--size);
   width: var(--size);
   fill: var(--dark);

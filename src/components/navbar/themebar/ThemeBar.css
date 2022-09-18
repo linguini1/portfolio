@@ -1,0 +1,26 @@
+#theme-bar {
+  border-bottom-style: solid;
+  border-bottom-color: var(--dark);
+
+  padding: 0 var(--site-header-indent) 0.8rem var(--site-header-indent);
+}
+
+#theme-bar,
+#themes {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+#themes {
+  gap: 0.3rem;
+}
+
+#theme-bar {
+  gap: 1.5rem;
+}
+
+.theme {
+  font-size: 0.6rem;
+  padding: 0.05rem 0.15rem;
+}

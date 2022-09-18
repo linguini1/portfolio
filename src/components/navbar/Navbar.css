@@ -1,10 +1,10 @@
 #navbar {
   background-color: var(--light);
   font-size: 0.8rem;
-  border-style: solid none;
+  border-top-style: solid;
   border-color: var(--dark);
 
-  padding: 1rem var(--site-header-indent);
+  padding: 0.8rem var(--site-header-indent);
 
   display: flex;
   justify-content: left;
@@ -20,11 +20,11 @@
 }
 
 #pages {
-  margin-right: 4rem;
+  margin-right: 3rem;
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   font-weight: 600;
 
