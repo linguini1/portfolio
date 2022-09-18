@@ -19,11 +19,11 @@ function App() {
         <h1 id="site-title">Matteo Golin</h1>
       </div>
       <Navbar>
-        <PageLink to="/">Home</PageLink>
+        <PageLink to="/home">Home</PageLink>
         <PageLink to="/cv">CV</PageLink>
       </Navbar>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/cv" element={<CV />} />
       </Routes>
     </div>
