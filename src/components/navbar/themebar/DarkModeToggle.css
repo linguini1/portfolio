@@ -1,8 +1,7 @@
 #dark-mode-toggle {
   --inner-size: 0.6rem;
-  --size: 1rem;
-  width: var(--size);
-  height: var(--size);
+  --padding-size: 0.3rem;
+  padding: var(--padding-size);
 
   --inner-color: var(--dark);
 

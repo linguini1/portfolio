@@ -12,15 +12,81 @@
     "dark": "#2e3037"
   },
   {
+    "name": "IBM 51",
+    "link": "https://lospec.com/palette-list/ibm-51",
+    "light": "#d3c9a1",
+    "dark": "#323c39"
+  },
+  {
+    "name": "IBM 5151",
+    "link": "https://lospec.com/palette-list/obra-dinn-ibm-5151",
+    "light": "#01eb5f",
+    "dark": "#25342f"
+  },
+  {
     "name": "Paperback",
     "link": "https://lospec.com/palette-list/paperback-2",
     "light": "#b8c2b9",
     "dark": "#382b26"
   },
   {
-    "name": "Green",
+    "name": "Golf",
     "link": "https://lospec.com/palette-list/ys-neutral-green",
     "light": "#ffeaf9",
     "dark": "#004c3d"
+  },
+  {
+    "name": "Mac Paint",
+    "link": "https://lospec.com/palette-list/mac-paint",
+    "light": "#8bc8fe",
+    "dark": "#051b2c"
+  },
+  {
+    "name": "Note 2C",
+    "link": "https://lospec.com/palette-list/note-2c",
+    "light": "#edf2e2",
+    "dark": "#222a3d"
+  },
+  {
+    "name": "Casio",
+    "link": "https://lospec.com/palette-list/casio-basic",
+    "light": "#83b07e",
+    "dark": "#000000"
+  },
+  {
+    "name": "Endgame",
+    "link": "https://lospec.com/palette-list/st-1-bit-endgame",
+    "light": "#dcf29d",
+    "dark": "#1b1233"
+  },
+  {
+    "name": "Nokia 3310",
+    "link": "https://lospec.com/palette-list/nokia-3310",
+    "light": "#c7f0d8",
+    "dark": "#43523d"
+  },
+  {
+    "name": "Paper & Dust",
+    "link": "https://lospec.com/palette-list/ys-paper-and-dust",
+    "light": "#cb9e6a",
+    "dark": "#252932"
+  },
+  {
+    "name": "Iron Blues",
+    "link": "https://lospec.com/palette-list/iron-blues",
+    "light": "#e4e8d1",
+    "dark": "#596e79"
+  },
+  {
+    "name": "Bluerown",
+    "link": "https://lospec.com/palette-list/bluerown-1bit",
+    "light": "#b4e7ef",
+    "dark": "#af5534"
+  },
+  {
+    "name": "Ongbit",
+    "link": "https://lospec.com/palette-list/ongbit",
+    "light": "#ed8463",
+    "dark": "#151d24"
   }
 ]

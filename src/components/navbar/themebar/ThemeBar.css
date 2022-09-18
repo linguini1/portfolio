@@ -14,6 +14,7 @@
 
 #themes {
   gap: 0.3rem;
+  flex-wrap: wrap;
 }
 
 #theme-bar {
@@ -21,6 +22,6 @@
 }
 
 .theme {
-  font-size: 0.6rem;
+  font-size: 0.5rem;
   padding: 0.05rem 0.15rem;
 }
