@@ -10,7 +10,7 @@
 #site-title {
   letter-spacing: 0.5em;
   text-transform: uppercase;
-  font-size: 2.4rem;
+  font-size: 3rem;
 }
 
 /* Page specific */
@@ -21,4 +21,8 @@
 .page h1 {
   margin-bottom: 0.5em;
   text-transform: uppercase;
+}
+
+.page p {
+  margin-bottom: 0.6rem;
 }

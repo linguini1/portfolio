@@ -53,6 +53,7 @@ h2 {
 #cv p {
   font-weight: 300;
   font-size: var(--text-size);
+  margin: 0;
 }
 
 #cv .sars {

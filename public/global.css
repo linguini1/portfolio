@@ -7,8 +7,8 @@
   /* Values */
 
   /* Sizing */
-  --site-header-indent: 2.5rem;
-  --page-margins: 2rem 3em;
+  --site-header-indent: 5rem;
+  --page-margins: 2rem var(--site-header-indent);
 }
 
 /* Font family */
