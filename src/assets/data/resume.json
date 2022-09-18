@@ -93,51 +93,35 @@
       ]
     }
   ],
-  "achievements": [
+  "awards": [
     {
-      "achievement": "Academic Honour Roll",
-      "date": {
-        "month": "June",
-        "year": "2021"
-      },
-      "description": ["Overall average above 80% grades 7-12."]
-    },
-    {
-      "achievement": "Waterloo Math Contest",
+      "title": "Waterloo Math Contest",
       "date": {
         "month": "September",
         "year": "2019"
       },
-      "description": [
+      "sars": [
         "Placed within the top 25% of all contestants.",
-        "Achieved the highest score within St. Francis Xavier High School."
+        "Achieved the highest score of all contestants within St. Francis Xavier High School."
       ]
     },
     {
-      "achievement": "Leadership Award",
+      "title": "Leadership Award",
       "date": {
         "month": "June",
         "year": "2021"
       },
-      "description": [
+      "sars": [
         "Recipient of the Jim Tubman leadership award for outstanding leadership in the school community."
       ]
     },
     {
-      "achievement": "Computer Science Award",
+      "title": "Computer Science Award",
       "date": {
         "month": "June",
         "year": "2021"
       },
-      "description": ["Achieved the highest grade in 2020 and 2021."]
-    },
-    {
-      "achievement": "Language Arts Award",
-      "date": {
-        "month": "June",
-        "year": "2021"
-      },
-      "description": ["Achieved the highest grade in 2017 and 2021."]
+      "sars": ["Achieved the highest computer science grade in 2020 and 2021."]
     }
   ],
   "skills": {

@@ -8,6 +8,7 @@ import CVEducationItem from "./components/CVEducationItem";
 import CVWorkExperience from "./components/CVWorkExperience";
 import CVProject from "./components/CVProject";
 import CVSkills from "./components/CVSkills";
+import CVAward from "./components/CVAward";
 
 export default function CV() {
   const profile = Resume.profile;
@@ -26,6 +27,9 @@ export default function CV() {
   const projects = Resume.projects.map((project) => (
     <CVProject project={project} />
   ));
+
+  // Awards
+  const awards = Resume.awards.map((award) => <CVAward award={award} />);
 
   return (
     <main id="cv" className="page">
@@ -49,6 +53,10 @@ export default function CV() {
       <section id="cv-skills">
         <h2>Skills</h2>
         <CVSkills skills={Resume.skills} />
+      </section>
+      <section id="cv-awards">
+        <h2>Awards</h2>
+        {awards}
       </section>
     </main>
   );

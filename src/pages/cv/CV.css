@@ -70,7 +70,8 @@ h2 {
 #cv-education,
 #cv-experience,
 #cv-projects,
-#cv-skills {
+#cv-skills,
+#cv-awards {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;

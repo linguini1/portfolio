@@ -10,7 +10,7 @@ export function handle_no_year(year) {
   return year;
 }
 
-function format_month(month) {
+export function format_month(month) {
   return capitalize(month.slice(0, 3));
 }
 
