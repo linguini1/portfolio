@@ -9,6 +9,11 @@
   font-weight: 300;
 }
 
+#cv a:hover,
+#cv a.wrapper > h3:hover {
+  font-weight: bold;
+}
+
 #cv h1,
 h2 {
   text-transform: uppercase;
@@ -31,11 +36,18 @@ h2 {
 
 #cv h3 {
   font-weight: 400;
+  font-size: 1.1rem;
+  text-transform: uppercase;
 }
 
 #cv h4 {
   font-weight: 200;
   font-size: 0.8rem;
+}
+
+#cv h5 {
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 #cv p {
@@ -46,7 +58,7 @@ h2 {
 #cv .sars {
   font-weight: 300;
   font-size: var(--text-size);
-  list-style: "-  ";
+  list-style: ">  ";
   line-height: 1.5rem;
 }
 
@@ -55,12 +67,18 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
-/* Profile */
-
-/* Education */
 #cv-education,
-#cv-work {
+#cv-experience,
+#cv-projects,
+#cv-skills {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
+}
+
+/* Skills */
+#cv-skills-content {
+  display: flex;
+  justify-content: left;
+  gap: 2rem;
 }

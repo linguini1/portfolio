@@ -6,6 +6,8 @@ import "./CV.css";
 import CVContact from "./components/CVContact";
 import CVEducationItem from "./components/CVEducationItem";
 import CVWorkExperience from "./components/CVWorkExperience";
+import CVProject from "./components/CVProject";
+import CVSkills from "./components/CVSkills";
 
 export default function CV() {
   const profile = Resume.profile;
@@ -16,8 +18,13 @@ export default function CV() {
   ));
 
   // Work experience
-  const work_experience = Resume.experience.map((item) => (
-    <CVWorkExperience item={item} />
+  const work_experience = Resume.experience.map((experience) => (
+    <CVWorkExperience experience={experience} />
+  ));
+
+  // Projects
+  const projects = Resume.projects.map((project) => (
+    <CVProject project={project} />
   ));
 
   return (
@@ -31,9 +38,17 @@ export default function CV() {
         <h2>Education</h2>
         {education}
       </section>
-      <section id="cv-work">
+      <section id="cv-experience">
         <h2>Work Experience</h2>
         {work_experience}
+      </section>
+      <section id="cv-projects">
+        <h2>Projects</h2>
+        {projects}
+      </section>
+      <section id="cv-skills">
+        <h2>Skills</h2>
+        <CVSkills skills={Resume.skills} />
       </section>
     </main>
   );

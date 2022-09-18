@@ -171,9 +171,35 @@
   ],
   "projects": [
     {
-      "title": "typeTracker",
+      "title": "Library Database",
+      "link": "",
+      "year": "2021",
+      "sars": [
+        "Implemented a unit testing system in Python for group member code which caught errors before integration with the main codebase, resulting in a faster debugging process.",
+        "Compared task difficulty with team member skill sets and availability in order to assign tasks as the team lead, resulting in completion of deliverables before due dates.",
+        "Documented the project codebase with type annotations, docstrings, usage instructions, dependencies, algorithm explanations and a project report, resulting in ease of use and maintainability."
+      ]
+    },
+    {
+      "title": "Logic Gates",
+      "link": "https://github.com/linguini1/logicGates",
       "year": "2022",
-      "sars": []
+      "sars": [
+        "Drew logic gate schematic assets based off of schematics seen in class to allow for visualization of generated schematics.",
+        "Designed Python algorithms to create randomized schematics, calculate Karnaugh maps and stitch together assets into exportable PNG files of schematics.",
+        "Analyzed code for slow functionality, and researched optimizations to overcome memory and processing limitations in calculating Karnaugh maps, resulting in faster generation.",
+        "Documented code and created a command-line interface, allowing for ease of use and a maintainable code base."
+      ]
+    },
+    {
+      "title": "Conway",
+      "link": "https://github.com/linguini1/conway",
+      "year": "2022",
+      "sars": [
+        "Examined previously built Conway's Game of Life applications and their different rule sets in order to implement variety to the project.",
+        "Engineered a class-based approach to the simulation in Python, including different cell types, modifiable starting seeds, an iterable game scene and a GIF exporter.",
+        "Documented code with type definitions, docstrings and a README file for maintainability."
+      ]
     }
   ]
 }
