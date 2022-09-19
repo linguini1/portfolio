@@ -1,6 +1,6 @@
 import React from "react";
 import "./DarkModeToggle.css";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 export default function DarkModeToggle({ darkMode, setDarkMode }) {
   // Swap variables to change theme mode
@@ -18,11 +18,9 @@ export default function DarkModeToggle({ darkMode, setDarkMode }) {
   }, [darkMode]);
 
   return (
-    <div
-      id="dark-mode-toggle"
-      onClick={() => setDarkMode((darkMode) => !darkMode)}
-    >
-      <div className="inner"></div>
+    <div id="dark-mode-toggle" onClick={() => setDarkMode(!darkMode)}>
+      <div id="toggle-ball" className={darkMode ? "" : "toggled"}></div>
+      <div id="toggle-socket"></div>
     </div>
   );
 }

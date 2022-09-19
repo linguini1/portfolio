@@ -1,27 +1,36 @@
 #dark-mode-toggle {
-  --inner-size: 0.6rem;
-  --padding-size: 0.3rem;
-  padding: var(--padding-size);
-
-  --inner-color: var(--dark);
-
   display: flex;
   justify-content: center;
   align-items: center;
 
-  background-color: var(--light);
-  border-color: var(--dark);
-  border-style: solid;
+  --ball-size: 1.1rem;
+  --socket-width: 2.5rem;
+  --socket-height: 1rem;
 }
 
-#dark-mode-toggle .inner {
-  background-color: var(--inner-color);
-  width: var(--inner-size);
-  height: var(--inner-size);
-}
+#toggle-socket {
+  width: var(--socket-width);
+  height: var(--socket-height);
+  margin-left: calc(var(--ball-size) / -2);
 
-#dark-mode-toggle:hover {
+  border-radius: 4rem;
   background-color: var(--dark);
-  border-color: var(--light);
-  --inner-color: var(--light);
+}
+
+#toggle-ball {
+  background-color: var(--light);
+  border-style: solid;
+  border-color: var(--dark);
+  border-radius: 100%;
+
+  width: var(--ball-size);
+  height: var(--ball-size);
+  margin-right: calc(var(--ball-size) / -2);
+  z-index: 1;
+
+  transition: transform ease 0.5s;
+}
+
+.toggled {
+  transform: translateX(calc(var(--socket-width) - calc(var(--ball-size) / 2)));
 }
