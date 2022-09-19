@@ -10,6 +10,7 @@ import PageLink from "./components/navbar/PageLink";
 
 // Pages
 import Home from "./pages/home/Home";
+import About from "./pages/about/About";
 import CV from "./pages/cv/CV";
 
 function App() {
@@ -20,10 +21,12 @@ function App() {
       </div>
       <Navbar>
         <PageLink to="/">Home</PageLink>
+        <PageLink to="/about">About</PageLink>
         <PageLink to="/cv">CV</PageLink>
       </Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="/cv" element={<CV />} />
       </Routes>
     </div>

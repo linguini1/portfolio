@@ -1,0 +1,12 @@
+.repositories-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: left;
+  align-items: left;
+}
+
+.repositories-wrapper > * {
+  flex: auto;
+  min-width: 8rem;
+}

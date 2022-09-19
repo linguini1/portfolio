@@ -1,0 +1,71 @@
+.repo-card {
+  --anim-duration: 0.5s;
+  --raise: 0.5rem;
+
+  border-style: solid;
+  border-color: var(--dark);
+  border-radius: 2rem;
+
+  padding: 1rem 2rem;
+
+  transition: transform ease var(--anim-duration),
+    box-shadow ease var(--anim-duration);
+}
+
+.repo-card:hover {
+  transform: translateY(calc(var(--raise) * -1));
+  box-shadow: 0 var(--raise) var(--dark);
+  cursor: pointer;
+}
+
+/* Masonry style */
+.repo-card:nth-child(4n + 1) {
+  width: 24rem;
+}
+
+.repo-card:nth-child(4n + 2) {
+  width: 8rem;
+}
+
+.repo-card:nth-child(4n + 3) {
+  width: 12rem;
+}
+
+/* Text */
+.repo-card h2 {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.repo-card h3 {
+  font-weight: 300;
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.repo-card p {
+  font-size: 0.8rem;
+}
+
+.repo-languages {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+p.repo-language {
+  background-color: var(--dark);
+  color: var(--light);
+  border-style: solid;
+  border-color: var(--dark);
+  border-radius: 2rem;
+
+  font-size: 0.5rem;
+  padding: 0.15rem 0.4rem;
+}
+
+p.repo-language:hover {
+  background-color: var(--light);
+  color: var(--dark);
+}
