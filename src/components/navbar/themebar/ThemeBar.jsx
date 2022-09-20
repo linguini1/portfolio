@@ -8,6 +8,7 @@ import { useState } from "react";
 // Components
 import DarkModeToggle from "./DarkModeToggle";
 import Theme from "./Theme";
+import { useKey } from "../../../hooks/useKey";
 
 export default function ThemeBar() {
   const [darkMode, setDarkMode] = useState(false); // Light mode by default
@@ -17,10 +18,39 @@ export default function ThemeBar() {
     <Theme name={theme.name} theme={theme} key={index} mode={darkMode} />
   ));
 
+  // Menu is hidden by default
+  const [hidden, setHidden] = useState(true);
+
+  // Display menu when the hotkey Shift + M is pressed
+  useKey("KeyM", "shift", () => {
+    // Toggle the hidden class
+    setHidden(!hidden);
+
+    // Make body not scrollable
+    if (hidden) {
+      document.body.classList.add("menu-open");
+    } else {
+      document.body.classList.remove("menu-open");
+    }
+  });
+
+  // Close menu if user clicks outside it
+  const close_menu = (event) => {
+    if (event.target.id == "theme-bar-modal") {
+      setHidden(true);
+    }
+  };
+
   return (
-    <nav id="theme-bar">
-      <DarkModeToggle setDarkMode={setDarkMode} darkMode={darkMode} />
-      <div id="themes">{themes}</div>
-    </nav>
+    <div
+      id="theme-bar-modal"
+      className={hidden ? "hidden" : ""}
+      onClick={close_menu}
+    >
+      <nav id="theme-bar">
+        <DarkModeToggle setDarkMode={setDarkMode} darkMode={darkMode} />
+        <div id="themes">{themes}</div>
+      </nav>
+    </div>
   );
 }

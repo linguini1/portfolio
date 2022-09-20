@@ -1,7 +1,7 @@
 #navbar {
   background-color: var(--light);
   font-size: 0.8rem;
-  border-top-style: solid;
+  border-style: solid none;
   border-color: var(--dark);
 
   padding: 0.8rem var(--site-header-indent);

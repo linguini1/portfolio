@@ -1,8 +1,14 @@
 #theme-bar {
-  border-bottom-style: solid;
-  border-bottom-color: var(--dark);
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: var(--dark);
+  background-color: var(--light);
 
-  padding: 0 var(--site-header-indent) 0.8rem var(--site-header-indent);
+  width: 50%;
+  height: 50%;
+  padding: 3rem;
+
+  flex-direction: column;
 }
 
 #theme-bar,
@@ -15,6 +21,7 @@
 #themes {
   gap: 0.3rem;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 
 #theme-bar {
@@ -22,6 +29,25 @@
 }
 
 .theme {
-  font-size: 0.5rem;
-  padding: 0.05rem 0.15rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+#theme-bar-modal {
+  width: 100vw;
+  height: 100vh;
+
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  backdrop-filter: blur(5px);
+  visibility: visible;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#theme-bar-modal.hidden {
+  visibility: hidden;
 }
