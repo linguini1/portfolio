@@ -18,8 +18,12 @@ export default function DarkModeToggle({ darkMode, setDarkMode }) {
   }, [darkMode]);
 
   return (
-    <div id="dark-mode-toggle" onClick={() => setDarkMode(!darkMode)}>
-      <div id="toggle-ball" className={darkMode ? "" : "toggled"}></div>
+    <div id="dark-mode-toggle">
+      <div
+        id="toggle-ball"
+        className={darkMode ? "" : "toggled"}
+        onClick={() => setDarkMode(!darkMode)}
+      ></div>
       <div id="toggle-socket"></div>
     </div>
   );

@@ -20,7 +20,7 @@ export default function RepoCard({ repo }) {
 
   // Make div clickable
   const open_repo_url = () => {
-    window.open(repo.url, "-blank", "noopener,noreferrer");
+    window.open(repo.html_url, "-blank", "noopener,noreferrer");
   };
 
   console.log(repo);
