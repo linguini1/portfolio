@@ -44,3 +44,18 @@ a {
 body.menu-open {
   overflow-y: hidden;
 }
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--light);
+  border-style: none solid;
+  border-color: var(--dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--dark);
+}
