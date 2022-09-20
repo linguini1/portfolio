@@ -8,24 +8,19 @@
   height: 50%;
   padding: 3rem;
 
-  flex-direction: column;
-}
-
-#theme-bar,
-#themes {
   display: flex;
-  justify-content: left;
   align-items: center;
 }
 
 #themes {
-  gap: 0.3rem;
-  flex-wrap: wrap;
-  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#theme-bar {
-  gap: 1.5rem;
+#themes {
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .theme {
