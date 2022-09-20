@@ -10,7 +10,7 @@ import DarkModeToggle from "./DarkModeToggle";
 import Theme from "./Theme";
 
 export default function ThemeBar() {
-  const [darkMode, setDarkMode] = useState(true); // Light mode by default
+  const [darkMode, setDarkMode] = useState(false); // Light mode by default
 
   // Add all themes
   const themes = Themes.map((theme, index) => (
