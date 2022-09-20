@@ -16,7 +16,11 @@ export default function Repositories() {
   if (loading) {
     repo_cards = <h2>Loading...</h2>;
   } else {
-    repo_cards = data.map((repo, index) => (
+    // Do not show the biography repo
+    const filtered_data = data.filter((repo) => repo.name != "linguini1");
+
+    // Turn into cards
+    repo_cards = filtered_data.map((repo, index) => (
       <RepoCard key={index} repo={repo} />
     ));
   }
