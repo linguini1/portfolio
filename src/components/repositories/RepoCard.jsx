@@ -23,7 +23,6 @@ export default function RepoCard({ repo }) {
     window.open(repo.html_url, "-blank", "noopener,noreferrer");
   };
 
-  console.log(repo);
   return (
     <div className="repo-card" onClick={open_repo_url}>
       <h2>{repo.name}</h2>

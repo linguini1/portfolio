@@ -8,5 +8,4 @@
 
 .repositories-wrapper > * {
   flex: auto;
-  min-width: 8rem;
 }

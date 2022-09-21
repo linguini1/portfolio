@@ -7,6 +7,7 @@
   border-radius: 2rem;
 
   padding: 1rem 2rem;
+  min-width: min-content;
 
   transition: transform ease var(--anim-duration),
     box-shadow ease var(--anim-duration);
