@@ -15,7 +15,6 @@ import { ReactComponent as LinkedIn } from "../../assets/icons/linkedin.svg";
 
 export default function Navbar({ current_page, children }) {
   const [darkMode, setDarkMode] = useState(false); // Light mode by default
-  console.log(darkMode);
 
   return (
     <>
