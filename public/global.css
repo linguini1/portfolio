@@ -12,11 +12,18 @@
   --page-margins: 2rem var(--site-header-indent);
 }
 
-/* Font family */
+/* Font family & important styles */
 html {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  height: 100vh;
+}
+
+body {
+  height: 100vh;
+  position: fixed;
+  overflow-y: scroll;
 }
 
 /* Resets */
@@ -42,6 +49,8 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+/* Stop scrolling */
 
 body.menu-open {
   overflow-y: hidden;
