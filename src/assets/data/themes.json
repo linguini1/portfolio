@@ -30,7 +30,7 @@
     "dark": "#382b26"
   },
   {
-    "name": "Golf",
+    "name": "Giolitti",
     "link": "https://lospec.com/palette-list/ys-neutral-green",
     "light": "#ffeaf9",
     "dark": "#004c3d"
@@ -88,5 +88,11 @@
     "link": "https://lospec.com/palette-list/ongbit",
     "light": "#ed8463",
     "dark": "#151d24"
+  },
+  {
+    "name": "Sprite 0",
+    "link": "",
+    "light": "#eae6d6",
+    "dark": "#097941"
   }
 ]
