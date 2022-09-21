@@ -19,8 +19,8 @@ export default function ThemeBar({ darkMode }) {
   // Menu is hidden by default
   const [hidden, setHidden] = useState(true);
 
-  // Display menu when the hotkey Shift + M is pressed
-  useKey("KeyM", "shift", () => {
+  // Function to toggle between hidden and not hidden modes of menu
+  const toggle_hidden = () => {
     // Toggle the hidden class
     setHidden(!hidden);
 
@@ -30,12 +30,15 @@ export default function ThemeBar({ darkMode }) {
     } else {
       document.body.classList.remove("menu-open");
     }
-  });
+  };
+
+  // Display menu when the hotkey Shift + M is pressed
+  useKey("KeyM", "shift", toggle_hidden);
 
   // Close menu if user clicks outside it
   const close_menu = (event) => {
     if (event.target.id == "theme-bar-modal") {
-      setHidden(true);
+      toggle_hidden();
     }
   };
 
