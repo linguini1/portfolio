@@ -52,7 +52,6 @@ a {
 }
 
 /* Stop scrolling */
-
 body.menu-open {
   overflow-y: hidden;
 }

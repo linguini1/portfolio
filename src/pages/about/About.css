@@ -1,0 +1,7 @@
+#bio ul {
+  list-style: disc;
+}
+
+#about a {
+  text-decoration: underline;
+}
