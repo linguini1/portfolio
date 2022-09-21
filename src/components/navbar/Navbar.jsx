@@ -35,7 +35,7 @@ export default function Navbar({ current_page, children }) {
           />
         </div>
       </nav>
-      <ThemeBar darkMode={darkMode} setDarkMode={setDarkMode} />
+      <ThemeBar darkMode={darkMode} />
     </>
   );
 }

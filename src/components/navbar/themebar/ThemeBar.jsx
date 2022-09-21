@@ -10,7 +10,7 @@ import DarkModeToggle from "./DarkModeToggle";
 import Theme from "./Theme";
 import { useKey } from "../../../hooks/useKey";
 
-export default function ThemeBar({ darkMode, setDarkMode }) {
+export default function ThemeBar({ darkMode }) {
   // Add all themes
   const themes = Themes.map((theme, index) => (
     <Theme name={theme.name} theme={theme} key={index} mode={darkMode} />
