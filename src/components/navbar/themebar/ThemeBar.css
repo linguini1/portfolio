@@ -36,9 +36,9 @@
   position: fixed;
   top: 0;
   visibility: visible;
+  backdrop-filter: brightness(80%);
 
   display: flex;
-
   justify-content: center;
   align-items: center;
 }
