@@ -21,7 +21,6 @@ export default function DarkModeToggle({ darkMode, setDarkMode }) {
   // Function for switching between dark and light modes
   const switch_modes = () => {
     setDarkMode(!darkMode);
-    console.log("swithced");
   };
 
   // Hotkey to switch modes is Shift + D

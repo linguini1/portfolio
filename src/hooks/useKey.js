@@ -23,13 +23,12 @@ export function useKey(key, modifier, callback) {
   const [keyPressed, setKeyPressed] = useState(false);
 
   useEffect(() => {
-    // Event handler function (verifies that correct key combo was pressed)
-    function handle(event) {
+    const handle = (event) => {
       if (event.code === key && modifier_pressed(modifier, event)) {
         setKeyPressed(true);
         callbackRef.current();
       }
-    }
+    };
 
     // Add event listener for hotkey
     document.addEventListener("keypress", handle);
