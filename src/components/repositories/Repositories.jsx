@@ -8,7 +8,7 @@ import { useFetch } from "../../hooks/useFetch";
 import RepoCard from "./RepoCard";
 
 export default function Repositories() {
-  const { data, loading } = useFetch(
+  const [data, loading] = useFetch(
     "https://api.github.com/users/linguini1/repos"
   );
 

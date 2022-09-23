@@ -4,7 +4,7 @@ import "./RepoCard.css";
 
 export default function RepoCard({ repo }) {
   // Get repo languages
-  const { data, loading } = useFetch(repo.languages_url);
+  const [data, loading] = useFetch(repo.languages_url);
 
   var languages;
 
