@@ -5,3 +5,23 @@
 #about a {
   text-decoration: underline;
 }
+
+#about section {
+  margin-bottom: 1.5rem;
+}
+
+#bio-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+#github-pfp {
+  border-style: solid;
+  border-color: var(--dark);
+  border-width: 0.2rem;
+  background-color: var(--light);
+
+  --size: 15rem;
+  width: var(--size);
+  height: var(--size);
+}
