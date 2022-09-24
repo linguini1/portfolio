@@ -15,13 +15,17 @@
   gap: 1rem;
 }
 
-#github-pfp {
+#bio svg {
   border-style: solid;
   border-color: var(--dark);
   border-width: 0.2rem;
   background-color: var(--light);
 
-  --size: 15rem;
+  --size: 12rem;
   width: var(--size);
   height: var(--size);
+}
+
+#bio svg > rect {
+  fill: var(--dark);
 }

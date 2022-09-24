@@ -1,38 +1,21 @@
-import React, { useEffect } from "react";
 import "./About.css";
-
-// Hooks
-import { useFetch } from "../../hooks/useFetch";
-import { useState } from "react";
 
 // Components
 import Repositories from "../../components/repositories/Repositories";
+import { ReactComponent as PFP } from "../../assets/icons/conwayPulsar.svg";
 
 export default function About() {
   const current_interest =
     "physics processes and the emergence of complex phenomena from simple rules";
-
-  // Get github profile picture
-  const [userData, loading] = useFetch(
-    "https://api.github.com/users/linguini1"
-  );
-  const [profilePicture, setProfilePicture] = useState(
-    <div id="github-pfp"></div> // Placeholder while image loads
-  );
-
-  // Reset placeholder with actual image
-  useEffect(() => {
-    if (!loading) {
-      setProfilePicture(<img id="github-pfp" src={userData.avatar_url}></img>);
-    }
-  }, [loading]);
 
   return (
     <main id="about" className="page">
       <section id="bio">
         <h1>About Matteo</h1>
         <div id="bio-wrapper">
-          <div className="image-wrapper">{profilePicture}</div>
+          <div className="image-wrapper">
+            <PFP />
+          </div>
           <div className="text-wrapper">
             <p>
               Matteo is a computer systems engineering student at{" "}
