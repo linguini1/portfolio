@@ -33,6 +33,11 @@
   width: 8rem;
 }
 
+.repo-card-subheader {
+  display: flex;
+  gap: 0.5rem;
+}
+
 /* Text */
 .repo-card h2 {
   font-weight: 600;
@@ -43,6 +48,11 @@
   font-weight: 300;
   font-size: 0.8rem;
   margin-bottom: 0.3rem;
+}
+
+.repo-card-subheader .license {
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .repo-card p {

@@ -3,6 +3,17 @@ import { useFetch } from "../../hooks/useFetch";
 import "./RepoCard.css";
 
 export default function RepoCard({ repo }) {
+  // Format date
+  const date = repo.updated_at.slice(0, 10);
+
+  // Format license
+  var license;
+  if (repo.license) {
+    license = <h3 className="license">{repo.license.name}</h3>;
+  } else {
+    license = <></>;
+  }
+
   // Get repo languages
   const [data, loading] = useFetch(repo.languages_url);
 
@@ -26,7 +37,10 @@ export default function RepoCard({ repo }) {
   return (
     <div className="repo-card" onClick={open_repo_url}>
       <h2>{repo.name}</h2>
-      <h3>{repo.updated_at.slice(0, 10)}</h3>
+      <div className="repo-card-subheader">
+        <h3>{date}</h3>
+        {license}
+      </div>
       <p>{repo.description}</p>
       <div className="repo-languages">{languages}</div>
     </div>
