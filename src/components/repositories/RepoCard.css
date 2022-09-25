@@ -8,6 +8,7 @@
 
   padding: 1rem 2rem;
   min-width: min-content;
+  max-width: 16rem;
 
   transition: transform ease var(--anim-duration),
     box-shadow ease var(--anim-duration);
@@ -21,15 +22,15 @@
 
 /* Masonry style */
 .repo-card:nth-child(4n + 1) {
-  width: 24rem;
+  width: 16rem;
 }
 
 .repo-card:nth-child(4n + 2) {
-  width: 8rem;
+  width: 10rem;
 }
 
 .repo-card:nth-child(4n + 3) {
-  width: 12rem;
+  width: 8rem;
 }
 
 /* Text */
