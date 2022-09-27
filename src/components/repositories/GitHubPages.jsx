@@ -14,8 +14,10 @@ export default function GitHubPages() {
   var pages;
   if (!loading) {
     // Filter so only repositories with pages are displayed
+    const banned_repos = ["portfolio"];
     const filtered_repositories = repositories.filter(
-      (repo) => repo.has_pages == true
+      (repo) =>
+        repo.has_pages == true && !(banned_repos.indexOf(repo.name) > -1)
     );
 
     // Map to GitHubPage component
