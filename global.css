@@ -70,3 +70,16 @@ body.menu-open {
 ::-webkit-scrollbar-thumb {
   background-color: var(--dark);
 }
+
+/* Media Queries */
+@media only screen and (max-width: 1725px) {
+  :root {
+    font-size: 21px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  :root {
+    font-size: 18px;
+  }
+}
