@@ -12,7 +12,7 @@
 
 #bio-wrapper {
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 #bio svg {
@@ -22,10 +22,18 @@
   background-color: var(--light);
 
   --size: 12rem;
-  width: var(--size);
-  height: var(--size);
+  min-width: var(--size);
+  min-height: var(--size);
 }
 
 #bio svg > rect {
   fill: var(--dark);
+}
+
+.image-wrapper {
+  width: 30%;
+}
+
+.text-wrapper {
+  width: 70%;
 }

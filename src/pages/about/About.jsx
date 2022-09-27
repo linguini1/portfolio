@@ -1,7 +1,6 @@
 import "./About.css";
 
 // Components
-import Repositories from "../../components/repositories/Repositories";
 import { ReactComponent as PFP } from "../../assets/icons/conwayPulsar.svg";
 
 export default function About() {
@@ -36,10 +35,6 @@ export default function About() {
             </p>
           </div>
         </div>
-      </section>
-      <section id="repositories">
-        <h2>GitHub Repositories</h2>
-        <Repositories />
       </section>
     </main>
   );

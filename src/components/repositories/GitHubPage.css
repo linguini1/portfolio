@@ -1,0 +1,12 @@
+.github-page {
+  list-style: "  > ";
+}
+
+.github-page a {
+  text-decoration: underline;
+}
+
+.github-page:hover {
+  font-weight: 500;
+  list-style: "  >>> ";
+}
