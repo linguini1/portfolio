@@ -101,7 +101,7 @@
         "year": "2019"
       },
       "sars": [
-        "Placed within the top 25% of all contestants.",
+        "Achieved a high score amongst the top 25% of all contestants.",
         "Achieved the highest score of all contestants within St. Francis Xavier High School."
       ]
     },
@@ -112,7 +112,7 @@
         "year": "2021"
       },
       "sars": [
-        "Recipient of the Jim Tubman leadership award for outstanding leadership in the school community."
+        "Received of the Jim Tubman leadership award for outstanding leadership in the school community."
       ]
     },
     {
@@ -122,6 +122,17 @@
         "year": "2021"
       },
       "sars": ["Achieved the highest computer science grade in 2020 and 2021."]
+    },
+    {
+      "title": "CENG-C Programming Competition Winner",
+      "date": {
+        "month": "November",
+        "year": "2022"
+      },
+      "sars": [
+        "Achieved first place with a team of 3 other engineering students for developing the best simulator of forest regrowth.",
+        "Developed clear software documentation and a conceptual presentation to provide an overview of the simulator software to judges from Ciena and Novatech."
+      ]
     }
   ],
   "skills": {
@@ -129,6 +140,7 @@
       "Python",
       "HTML, CSS & SCSS",
       "React & Javascript",
+      "C/C++",
       "GitHub",
       "Flask",
       "Pandas",
