@@ -7,7 +7,7 @@ export const useFetch = (url) => {
   useEffect(() => {
     fetch(url, {
       headers: {
-        Authorization: `token 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`,
+        Authorization: `token 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`,
       },
     })
       .then((response) => response.json())
