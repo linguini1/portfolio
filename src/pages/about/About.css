@@ -58,13 +58,11 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   .image-wrapper {
     width: 100%;
   }
-}
 
-@media only screen and (max-width: 400px) {
   .text-wrapper {
     text-align: left;
   }

@@ -32,3 +32,16 @@
 .page p {
   margin-bottom: 0.6rem;
 }
+
+/* Mobile */
+
+@media only screen and (max-width: 800px) {
+  .page h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .page p {
+    font-size: 1.2rem;
+  }
+}
