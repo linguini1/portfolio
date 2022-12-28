@@ -1,87 +1,12 @@
-/* Text */
 #cv {
-  --text-size: 0.8rem;
-}
-
-#cv a {
-  text-decoration: underline;
-  font-size: var(--text-size);
-  font-weight: 300;
-}
-
-#cv a:hover,
-#cv a.wrapper > h3:hover {
-  font-weight: bold;
-}
-
-#cv h1,
-h2 {
-  text-transform: uppercase;
-}
-
-#cv h1 {
-  font-weight: 700;
-  margin: 0;
-  font-size: 2rem;
-}
-
-#cv h1.subtitle {
-  font-weight: 300;
-  font-size: 1rem;
-}
-
-#cv h2 {
-  font-weight: 500;
-}
-
-#cv h3 {
-  font-weight: 400;
-  font-size: 1.1rem;
-  text-transform: uppercase;
-}
-
-#cv h4 {
-  font-weight: 200;
-  font-size: 0.8rem;
-}
-
-#cv h5 {
-  text-transform: uppercase;
-  font-weight: 400;
-}
-
-#cv p {
-  font-weight: 300;
-  font-size: var(--text-size);
-  margin: 0;
-}
-
-#cv .sars {
-  font-weight: 300;
-  font-size: var(--text-size);
-  list-style: ">  ";
-  line-height: 1.5rem;
-}
-
-/* General */
-#cv section {
-  margin-bottom: 0.5rem;
-}
-
-#cv-education,
-#cv-experience,
-#cv-projects,
-#cv-skills,
-#cv-awards,
-#cv-extracurriculars {
   display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
+  align-items: center;
+  justify-content: center;
 }
 
-/* Skills */
-#cv-skills-content {
-  display: flex;
-  justify-content: left;
-  gap: 2rem;
+#resume {
+  width: 80%;
+  aspect-ratio: 17 / 22;
+  border-color: var(--dark);
+  border-width: 2px;
 }
