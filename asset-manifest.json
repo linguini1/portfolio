@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f0a28547.css",
-    "main.js": "/portfolio/static/js/main.f4dac8d7.js",
+    "main.css": "/portfolio/static/css/main.6d9b9577.css",
+    "main.js": "/portfolio/static/js/main.dba2866a.js",
     "static/media/conwayPulsar.svg": "/portfolio/static/media/conwayPulsar.f9b63ebcf0198e85326906673ab19f48.svg",
     "static/media/github.svg": "/portfolio/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
     "index.html": "/portfolio/index.html",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
-    "main.f0a28547.css.map": "/portfolio/static/css/main.f0a28547.css.map",
-    "main.f4dac8d7.js.map": "/portfolio/static/js/main.f4dac8d7.js.map"
+    "main.6d9b9577.css.map": "/portfolio/static/css/main.6d9b9577.css.map",
+    "main.dba2866a.js.map": "/portfolio/static/js/main.dba2866a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0a28547.css",
-    "static/js/main.f4dac8d7.js"
+    "static/css/main.6d9b9577.css",
+    "static/js/main.dba2866a.js"
   ]
 }
