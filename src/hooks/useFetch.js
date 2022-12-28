@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import auth from "../assets/auth.json";
 
 export const useFetch = (url) => {
   const [data, setData] = useState(null);
@@ -7,7 +8,7 @@ export const useFetch = (url) => {
   useEffect(() => {
     fetch(url, {
       headers: {
-        Authorization: `token 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`,
+        Authorization: `token ${auth.Authentication}`,
       },
     })
       .then((response) => response.json())
