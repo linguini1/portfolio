@@ -10,7 +10,7 @@ export default function CV() {
       <iframe
         id="resume"
         title="resume"
-        src="https://drive.google.com/file/d/16Gsv6XeIcbx6THN8iqGXHVMgZY26ZmUb/view?usp=share_link"
+        src="https://drive.google.com/file/d/16Gsv6XeIcbx6THN8iqGXHVMgZY26ZmUb/preview"
         allow="autoplay"
       />
     </main>
