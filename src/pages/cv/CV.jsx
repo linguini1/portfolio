@@ -7,12 +7,10 @@ export default function CV() {
   return (
     <main id="cv" className="page">
       <h1>Resume</h1>
-      <iframe
-        id="resume"
-        title="resume"
-        src="https://drive.google.com/file/d/1i8By9CqWbQU2hOnM3dhUpAUyxr3PZOEZ/preview"
-        allow="autoplay"
-      />
+      <p>
+        To view a copy of my resume, please <a href="mailto:matteo.golin@gmail.com">email me</a> or look at the
+        experience listed on my LinkedIn page.
+      </p>
     </main>
   );
 }
